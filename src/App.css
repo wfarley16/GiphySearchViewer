@@ -2,21 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.nav {
+  height: 100px;
+  background-color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.nav-header {
+  padding-top: 25px !important;
+  vertical-align: middle;
+}
+
+.page {
+  width: 1080px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.main-input {
+  padding-top: 40px !important;
+}
+
+.gif-card {
+  margin: 20px !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 1080px) {
+  .page {
+    width: 960px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .page {
+    width: 720px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page {
+    width: 360px;
+  }
 }
